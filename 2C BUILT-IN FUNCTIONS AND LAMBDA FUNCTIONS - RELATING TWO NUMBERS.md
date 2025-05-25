@@ -1,40 +1,33 @@
-# Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+# Experiment No: 2c Multiplication Using Lambda Function
+
+## AIM  
+To write a Python program that defines a function using a lambda expression to multiply two numbers.
 
 ---
 
-### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
-
----
-
-### ALGORITHM
-
+### ALGORITHM  
 1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+2. Use `input()` to read the two numbers `a` and `b` from the user.
+3. Convert the inputs to integers.
+4. Create a lambda function that takes two arguments `a` and `b`, and returns their multiplication `a * b`.
+5. Assign the lambda function to a variable `f`.
+6. Call the function `f(a, b)` to compute the multiplication and print the result.
+7. Terminate the program.
 
 ---
 
-### PROGRAM
+### 🧾 PROGRAM
 
-```
+```python
+a = int(input())
+b = int(input())
 
+f = lambda a, b: a * b
+print(f(a, b))
 ```
 
 ### OUTPUT
-
-```
-
-```
+![image](https://github.com/user-attachments/assets/002dfc63-ee1f-48d9-878e-8b3075c9f652)
 
 ### RESULT
-
-```
-
-```
+Thus, the Python program that defines a lambda function for multiplication of two numbers has been implemented and executed successfully.
